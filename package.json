@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "build": "pnpm install --frozen-lockfile && npx playwright install --with-deps",
-    "start": "node app.js",
+    "build": "pnpm install --frozen-lockfile",
+    "start": "npx playwright install && node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
